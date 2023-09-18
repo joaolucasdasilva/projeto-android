@@ -184,6 +184,12 @@ aside > ul {
     columns: 2;
 }
 
+#container-img {
+    display: flex;
+    align-items: center;
+    
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
@@ -198,8 +204,22 @@ footer a {
     text-decoration: none;
 }
 
+
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+    transition: 0.5s;
+}
+
+.contact-link img {
+    width: 20px; 
+    height: auto; 
+    opacity: 0.7; 
+    transition: opacity 0.3s ease; 
+}
+
+
+.contact-link:hover img {
+    opacity: 1; 
 }
 
